@@ -13,7 +13,7 @@ function changeColors(activeIndex) {
 
     squares.forEach((square, index) => {
         if (index !== activeIndex) {
-            square.style.backgroundColor = '#6F4E37'; // Change color to Coffee
+            square.style.backgroundColor = '#6F4E37';// Change color to Coffee
         } else {
             square.style.backgroundColor = '#E6E6FA'; // Change color to Lavender for the active square
         }
